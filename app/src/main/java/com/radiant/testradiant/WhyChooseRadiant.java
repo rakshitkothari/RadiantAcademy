@@ -7,6 +7,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class WhyChooseRadiant extends AppCompatActivity {
 
+    // sample comment
+
     @SuppressLint("RestrictedApi")
     @Override
     protected void onCreate(Bundle savedInstanceState) {

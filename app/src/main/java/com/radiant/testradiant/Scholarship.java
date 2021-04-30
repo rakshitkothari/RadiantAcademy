@@ -10,7 +10,7 @@ import com.github.barteksc.pdfviewer.PDFView;
 public class Scholarship extends AppCompatActivity {
     PDFView pdfs;
 
-
+    // sample comment1
     @SuppressLint({"WrongViewCast", "RestrictedApi"})
     @Override
     protected void onCreate(Bundle savedInstanceState) {
