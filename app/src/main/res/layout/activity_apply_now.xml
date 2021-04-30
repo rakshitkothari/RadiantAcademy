@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lightbackground"
+    tools:context="com.radiant.testradiant.ApplyNow">
+
+    <ImageView
+        android:id="@+id/ao"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:src="@drawable/test" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/rsat"
+        android:layout_width="400dp"
+        android:layout_height="350dp"
+        android:layout_below="@+id/ao"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15pt"
+        android:layout_marginRight="20dp">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/rsat">
+
+        </ImageView>
+
+    </androidx.cardview.widget.CardView>
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button_googleform1"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+
+    <!--        android:layout_marginLeft="140dp"-->
+    <!--        android:layout_marginTop="500dp"-->
+    <!--        android:onClick="browser2"-->
+    <!--        android:text="Apply for R-SAT"-->
+    <!--        android:textAppearance="@style/TextAppearance.AppCompat"-->
+    <!--        android:textColor="#ffffff"-->
+    <!--        tools:ignore="OnClick" />-->
+
+    <ImageView
+
+        android:id="@+id/button_googleform1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="500dp"
+        android:onClick="browser2"
+        android:src="@drawable/applynowimage"
+        tools:ignore="OnClick">
+
+    </ImageView>
+
+</RelativeLayout>

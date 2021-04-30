@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lightbackground"
+    tools:context="com.radiant.testradiant.Asp">
+
+    <ImageView
+        android:id="@+id/ao"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:src="@drawable/test" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_marginLeft="95dp"
+        android:layout_weight="3"
+        android:columnCount="1"
+        android:layout_marginTop="50dp"
+        android:rowCount="2">
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="10pt"
+            android:layout_marginTop="40pt">
+
+            <ImageView
+
+                android:id="@+id/i211"
+                android:layout_width="fill_parent"
+
+                android:layout_height="fill_parent"
+                android:src="@drawable/new_new_new_jee">
+
+            </ImageView>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20pt">
+
+            <ImageView
+                android:id="@+id/i212"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+
+                android:src="@drawable/new_new_new_neet">
+
+            </ImageView>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </GridLayout>
+
+</RelativeLayout>

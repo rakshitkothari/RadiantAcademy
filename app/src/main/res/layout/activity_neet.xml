@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lightbackground"
+    tools:context="com.radiant.testradiant.Neet">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ao"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/test" />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textbelow"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="30dp"
+            android:text="NEET (UG)"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/aboutusheader"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:justificationMode="inter_word"
+            android:text="The Advanced Scholar’s Programme (ASP) division of The Radiant Academy prepares students for entrance examinations to prestigious medical colleges in India like AIIMS, AFMC, JIPMER, CMCM Vellore and other medical colleges recognized by Medical Council of India. In order to get through NEET-UG, determination, dedication, and self-belief are very important for every student. Our experts in Zoology and Botany adopt an application-based learning and focus on fundamentals. Our experts in Physics and Chemistry have premier coaching experience including that for JEE. This blend of expert faculty, periodic testing through a state-of-the-art online testing platform coupled with performance coaching provides a recipe to success for our students."
+            android:textColor="@color/black"
+            android:textSize="17dp" />
+
+        <ImageView
+            android:layout_marginLeft="20dp"
+            android:layout_width="340dp"
+            android:layout_height="310dp"
+            android:src="@drawable/premedical"
+            />
+        <Button
+            android:id="@+id/course_details_neet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="15dp"
+            android:hapticFeedbackEnabled="true"
+            tools:ignore="OnClick"
+
+            android:text="Course Details"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="#ffffff"
+            />
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lightbackground"
+    tools:context="com.radiant.testradiant.TheRadiantWay">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ao"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/test" />
+
+        <TextView
+            android:id="@+id/radiantway"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textbelow"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="30dp"
+            android:text="THE RADIANT WAY"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/belowway"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:justificationMode="inter_word"
+            android:text="Every part of The Radiant teaching system, be it faculty selection and the faculty training and development, execution of curriculum teaching and regular testing and performance analysis follow a set of standards with focus on innovation, continuous improvement and student success at the centre of all efforts. The academy's laser like focus on securing grasping of subject fundamentals, application-based teaching, doubt solving classes, rigourous testing and assessment, regular personalized feedback, mental performance coaching and high quality study material is at the core of this methodology. We call it The Radiant Way."
+            android:textColor="@color/black"
+            android:textSize="17dp" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:src="@drawable/theradiantway1" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="500dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/rw" />
+
+
+    </LinearLayout>
+</ScrollView>

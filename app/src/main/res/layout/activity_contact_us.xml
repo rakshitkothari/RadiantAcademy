@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lightbackground"
+    android:orientation="vertical"
+    tools:context="com.radiant.testradiant.ContactUs">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/ao"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/test" />
+
+        <ImageView
+            android:id="@+id/imageview"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/ao"
+            android:layout_centerInParent="false"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:paddingTop="20dp"
+            android:src="@drawable/rl1" />
+
+
+        <TextView
+            android:id="@+id/loc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageview"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="30dp"
+            android:text="Location"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/loc"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:justificationMode="inter_word"
+            android:text="Corporate Office: 7-8, Samta Nagar, Hiran Magri, Sector - 3, Udaipur (Rajasthan) - 313001"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/location"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:text="Call Us On"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/number1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/call"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:text="+91-9001053989"
+
+            android:textColor="@color/black"
+            android:textSize="20dp"
+
+            />
+
+        <TextView
+            android:id="@+id/number2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/number1"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:text="+91-9461172001"
+
+            android:textColor="@color/black"
+            android:textSize="20dp"
+
+            />
+
+        <TextView
+            android:id="@+id/mail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/number2"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="30dp"
+            android:text="Email us on"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/gmail"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_below="@+id/mail"
+            android:layout_centerInParent="true"
+            android:onClick="gmail"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/gmail1"
+            tools:ignore="OnClick"
+
+            />
+
+        <TextView
+            android:id="@+id/email1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gmail"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="info@theradiantacademy.com"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/email2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/email1"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="contact@theradiantacademy.com"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/web"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/email2"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="30dp"
+            android:text="Visit us on"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/website"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/web"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="www.theradiantacademy.com"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/socialmedia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/website"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="30dp"
+            android:text="Find Us on"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/facebook"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/socialmedia"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/fb" />
+
+        <ImageView
+            android:id="@+id/instagram"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/facebook"
+            android:layout_centerInParent="true"
+
+            android:layout_marginTop="20dp"
+
+            android:src="@drawable/instagram2" />
+
+        <ImageView
+            android:id="@+id/twitter"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/instagram"
+            android:layout_centerInParent="true"
+
+            android:layout_marginTop="20dp"
+
+            android:src="@drawable/twitter" />
+
+        <ImageView
+            android:id="@+id/youtube"
+
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/twitter"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+
+            android:src="@drawable/newyoutube" />
+
+
+        <!--    <com.google.android.material.bottomnavigation.BottomNavigationView-->
+        <!--        android:id="@+id/bottom_navigation_view"-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:layout_alignParentBottom="true"-->
+        <!--        app:itemBackground="@color/design_default_color_primary"-->
+
+        <!--        />-->
+
+
+        <!--    <ImageView-->
+        <!--        android:layout_below="@+id/ao"-->
+        <!--        android:id="@+id/thanks1"-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="300dp"-->
+        <!--        android:layout_marginTop="00dp"-->
+        <!--        android:src="@drawable/thanks"-->
+
+        <!--        />-->
+
+        <!--    <TextView-->
+        <!--        android:id="@+id/text"-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:layout_below="@+id/thanks1"-->
+        <!--        android:textColor="@color/black"-->
+        <!--        android:textSize="25dp"-->
+        <!--        android:gravity="center"-->
+        <!--        android:text="We will get back to you shortly!"-->
+
+        <!--        />-->
+
+
+    </RelativeLayout>
+    <!--    <com.google.android.material.textfield.TextInputLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:layout_margin="5dp"-->
+    <!--        android:textColorHint="#ffffff" />-->
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_marginTop="35dp"-->
+    <!--        android:orientation="vertical">-->
+
+    <!--        <TextView-->
+
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginLeft="20dp"-->
+    <!--            android:layout_marginTop="30dp"-->
+    <!--            android:text="Your Name"-->
+    <!--            android:textAppearance="@style/TextAppearance.AppCompat"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:textSize="20dp" />-->
+
+    <!--        <EditText-->
+    <!--            android:id="@+id/edit_text_name"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginLeft="20dp"-->
+    <!--            android:hint="Enter your name"-->
+    <!--            android:inputType="textPersonName" />-->
+
+    <!--        <TextView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginLeft="20dp"-->
+    <!--            android:layout_marginTop="30dp"-->
+    <!--            android:text="Email Address"-->
+    <!--            android:textAppearance="@style/TextAppearance.AppCompat"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:textSize="20dp" />-->
+
+    <!--        <EditText-->
+    <!--            android:id="@+id/edit_text_email"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginLeft="20dp"-->
+    <!--            android:hint="Enter your Email"-->
+    <!--            android:inputType="textEmailAddress" />-->
+
+    <!--        <TextView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginLeft="20dp"-->
+    <!--            android:layout_marginTop="30dp"-->
+    <!--            android:text="Subject"-->
+    <!--            android:textAppearance="@style/TextAppearance.AppCompat"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:textSize="20dp" />-->
+
+    <!--        <EditText-->
+    <!--            android:id="@+id/edit_text_subject"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginLeft="20dp"-->
+    <!--            android:hint="Enter subject"-->
+    <!--            android:inputType="textEmailSubject" />-->
+
+    <!--        <TextView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginLeft="20dp"-->
+    <!--            android:layout_marginTop="30dp"-->
+    <!--            android:lines="2"-->
+    <!--            android:text="Your Message"-->
+    <!--            android:textAppearance="@style/TextAppearance.AppCompat"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:textSize="20dp" />-->
+
+    <!--        <EditText-->
+    <!--            android:id="@+id/edit_text_message"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginLeft="20dp"-->
+    <!--            android:hint="Enter message"-->
+    <!--            android:inputType="textShortMessage" />-->
+
+    <!--        <Button-->
+    <!--            android:id="@+id/button_send"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_centerInParent="true"-->
+    <!--            android:layout_marginLeft="150dp"-->
+    <!--            android:layout_marginTop="15dp"-->
+    <!--            android:hapticFeedbackEnabled="true"-->
+    <!--            android:onClick="onClick"-->
+    <!--            android:text="Send"-->
+    <!--            android:textAppearance="@style/TextAppearance.AppCompat"-->
+    <!--            android:textColor="#ffffff"-->
+    <!--            tools:ignore="OnClick" />-->
+
+
+    <!--    </LinearLayout>-->
+</ScrollView>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lightbackground"
+    tools:context="com.radiant.testradiant.CourseProgramme">
+    <ImageView
+        android:id="@+id/ao"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:src="@drawable/test" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_marginLeft="95dp"
+        android:layout_weight="3"
+        android:layout_marginTop="50dp"
+        android:columnCount="1"
+        android:rowCount="2">
+
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="10pt"
+            android:layout_marginTop="40pt">
+
+            <ImageView
+
+                android:id="@+id/i21"
+                android:layout_width="fill_parent"
+
+                android:layout_height="fill_parent"
+                android:src="@drawable/asplogo">
+
+            </ImageView>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20pt">
+
+            <ImageView
+                android:id="@+id/i22"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+
+                android:src="@drawable/ysplogo1">
+
+            </ImageView>
+
+        </androidx.cardview.widget.CardView>
+
+<!--        <Button-->
+<!--            android:id="@+id/book1"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerInParent="true"-->
+<!--            android:layout_marginLeft="50dp"-->
+<!--            android:layout_marginTop="40dp"-->
+<!--            android:backgroundTint="@color/design_default_color_primary"-->
+<!--            android:text="Book 1"-->
+<!--            android:textColor="#fff"-->
+<!--            android:textSize="18sp"-->
+<!--            android:textStyle="bold" />-->
+<!--        <Button-->
+<!--            android:id="@+id/book2"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerInParent="true"-->
+<!--            android:layout_marginLeft="50dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:backgroundTint="@color/design_default_color_primary"-->
+<!--            android:text="Book 2"-->
+<!--            android:textColor="#fff"-->
+<!--            android:textSize="18sp"-->
+<!--            android:textStyle="bold" />-->
+
+    </GridLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lightbackground"
+    tools:context="com.radiant.testradiant.AboutRadiant">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ao"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+
+
+            android:src="@drawable/test" />
+
+        <ImageView
+            android:id="@+id/aboutusheader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/aboutradiantheader" />
+
+        <TextView
+            android:id="@+id/textbelow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/aboutusheader"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:justificationMode="inter_word"
+            android:text="The Radiant Academy is an educational institute formed by a group of passionate, caring and highly experienced teachers coming together to provide a transformative academic experience to the students and help them succeed in pursuing their dreams. The academy is a preparatory institute for competitive engineering and medical entrance examinations- JEE (Main and Advanced), NEET, NTSE, KVPY, IJSO and state and national board examinations. The Radiant Academy was formed with a vision of providing excellent career education to the students with a perfect blend of high quality academics, nurturing environment for learning, regular analysis of student's performance, mental coaching and personalised care and attention to each student. The academy seeks to impart life and learning skills to our students such that they succeed in competitive examinations and beyond in their careers and life."
+            android:textColor="@color/black"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/textbelow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textbelow"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="30dp"
+            android:text="ACADEMIC DIVISIONS"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/belowad"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textbelow1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="1. Advanced Scholar's Program (ASP)"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="italic"
+
+            />
+
+        <TextView
+            android:id="@+id/students"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/belowad"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:text="For students studying in classes XI, XII and XII Passed"
+            android:textColor="@color/black"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:justificationMode="inter_word"
+            android:text="ASP prepares students to succeed in competitive entrance examination in the fields of engineering and medical viz. JEE Main and Advanced, NEET, AIIMS and state engineering and medical entrance examinations. The expert faculty of Radiant drawn from IITs, NITs and top medical institues has mentored thousands of students who have given record breaking performances (e.g. JEE Main AIR Rank 1, first and only score of 360/360 in JEE Main). The main features of the program include online testing on a state of the art testing platform, precisely designed study material, continuous evaluation and analysis of performance of the students and mental performance training. At Radiant, we aim to develop critical thinking and ability to think out-of-box, a skill that is crucial to success in competitive examinations."
+            android:textColor="@color/black"
+            android:textSize="17dp" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textbelow1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="2. Young Scholar's Program (YSP)"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="italic"
+
+            />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/belowad"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:text="For students studying in classes VII to X"
+            android:textColor="@color/black"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:justificationMode="inter_word"
+            android:text="YSP (Class VII to X) is the foundational first step towards Igniting Young Minds and prepares students for Board exams, NTSE, IJSO and other Olympiads. The YSP develops the basic conceptual foundation of Science and Math with an aim to develop a high level of proficiency in these subjects. Expert faculty at Radiant uses modern technology and adaptive that makes learning interesting, generates curiosity and develops all important learning and examination skills in students at an early stage. Data proves, without a doubt, that a a foundational program like YSP greatly increases chances of success in future career-oriented examinations like JEE, NEET, etc."
+            android:textColor="@color/black"
+            android:textSize="17dp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textbelow"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:text="Vision, Mission and Values"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:justificationMode="inter_word"
+            android:text="At Radiant Academy, we strongly believe in making a difference through excellence in everything we do. The success of our academy is based on the success of students and it is our duty to enhance the performance of our students to the best possible levels. Transforming the lives of the young generation through our training is an immense responsibility that we do not take lightly and therefore all our actions are guided by our Mission, Vision, and Values."
+            android:textColor="@color/black"
+            android:textSize="17dp" />
+
+
+
+            <ImageView
+
+                android:layout_width="330dp"
+                android:layout_height="400dp"
+                android:layout_marginLeft="20dp"
+
+                android:src="@drawable/vmv">
+
+            </ImageView>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

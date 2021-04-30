@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lightbackground"
+    tools:context="com.radiant.testradiant.Ysp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/ao"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/test" />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textbelow"
+
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"
+            android:text="Young Scholar's Program (YSP) Division"
+            android:textColor="@color/black"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/belowclass"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textbelow1"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:text="(Class VII to X)"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="italic"
+
+            />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/aboutusheader"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:justificationMode="inter_word"
+            android:text="The Young Scholar’s Program (YSP) division of The Radiant Academy trains students of class 7th to 10th to given them an edge by adopting a philosophy of early start. This program is the first step towards nurturing and igniting the young minds. We believe that laying the basic foundation of math and science at an early stage, developing the ability to think out of box, learning and regular practice and training from highly professional faculty lays a solid foundation on which students can build their dreams. We strongly encourage parents to enroll their child to these programs as the data conclusively proves that chances of success in competitive examination greatly increases through training at an early stage. Students undergo training for NCERT curriculum for Board exams, International Junior Science Olympiads (IJSO), National Talent Search Examination (NTSE), Pre-Regional Mathematics Olympiads (Pre-RMO) and private Olympiads."
+            android:textColor="@color/black"
+            android:textSize="17dp" />
+
+        <ImageView
+            android:layout_marginLeft="20dp"
+            android:layout_width="340dp"
+            android:layout_height="310dp"
+            android:src="@drawable/course_3"
+            />
+
+        <Button
+            android:id="@+id/course_details_ysp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="15dp"
+            android:hapticFeedbackEnabled="true"
+
+            android:text="Course Details"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="#ffffff"
+            />
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

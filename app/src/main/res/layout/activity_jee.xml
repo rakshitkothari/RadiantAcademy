@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lightbackground"
+
+    tools:context="com.radiant.testradiant.Jee">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ao"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/test" />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textbelow"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="30dp"
+            android:text="JEE (Main+Advanced)
+"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/aboutusheader"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:justificationMode="inter_word"
+            android:text="The Radiant Academy is an educational institute formed by a group of passionate, caring and highly experienced teachers coming together to provide a transformative academic experience to the students and help them succeed in pursuing their dreams. The academy is a preparatory institute for competitive engineering and medical entrance examinations- JEE (Main and Advanced), NEET, NTSE, KVPY, IJSO and state and national board examinations. The Radiant Academy was formed with a vision of providing excellent career education to the students with a perfect blend of high quality academics, nurturing environment for learning, regular analysis of student's performance, mental coaching and personalised care and attention to each student. The academy seeks to impart life and learning skills to our students such that they succeed in competitive examinations and beyond in their careers and life."
+            android:textColor="@color/black"
+            android:textSize="17dp" />
+
+
+        <ImageView
+            android:layout_width="340dp"
+            android:layout_height="310dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/preengineering" />
+
+        <Button
+            android:id="@+id/pdfjeecourse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="15dp"
+            android:hapticFeedbackEnabled="true"
+            tools:ignore="OnClick"
+
+            android:text="Course Details"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+
+    <!--    <TextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:layout_centerInParent="true"-->
+    <!--        android:layout_centerHorizontal="false"-->
+    <!--        android:layout_marginLeft="100dp"-->
+    <!--        android:layout_marginTop="20sp"-->
+    <!--        android:gravity="fill"-->
+    <!--        android:text="JEE (Main + Advance)"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        android:textSize="20sp"-->
+    <!--        android:textStyle="bold" />-->
+
+
+</ScrollView>

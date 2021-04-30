@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lightbackground"
+    android:orientation="vertical"
+    tools:context="com.radiant.testradiant.RadiantGallery">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--        <com.denzcoskun.imageslider.ImageSlider-->
+        <!--            android:id="@+id/slider"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="210dp"-->
+        <!--            app:auto_cycle="true"-->
+        <!--            app:corner_radius="5"-->
+        <!--            app:delay="4"-->
+
+        <!--            app:period="1000" />-->
+
+
+        <ImageView
+            android:id="@+id/ao"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/test" />
+
+        <!--Image 1-->
+        <ImageView
+            android:id="@+id/congo"
+            android:layout_width="wrap_content"
+            android:layout_height="500dp"
+            android:layout_below="@+id/ao"
+            android:layout_marginTop="30dp"
+
+            android:src="@drawable/jeemains"
+
+            />
+        <!--Image 2-->
+        <ImageView
+            android:id="@+id/congo1"
+            android:layout_width="wrap_content"
+            android:layout_height="500dp"
+            android:layout_below="@id/congo"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/jeemains1" />
+        <!--Image 3-->
+        <ImageView
+            android:id="@+id/congo2"
+            android:layout_width="wrap_content"
+            android:layout_height="500dp"
+            android:layout_below="@id/congo1"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/kvpy" />
+        <!--Image 4-->
+        <ImageView
+            android:id="@+id/congo3"
+            android:layout_width="wrap_content"
+            android:layout_height="500dp"
+            android:layout_below="@id/congo2"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/stse" />
+        <!--Image 5-->
+        <ImageView
+            android:id="@+id/congo4"
+            android:layout_width="wrap_content"
+            android:layout_height="500dp"
+            android:layout_below="@id/congo3"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/congrats" />
+        <!--Image 6-->
+        <ImageView
+            android:id="@+id/congo5"
+            android:layout_width="wrap_content"
+            android:layout_height="500dp"
+            android:layout_below="@id/congo4"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/img1" />
+        <!--Image 7-->
+        <ImageView
+            android:id="@+id/congo6"
+            android:layout_width="wrap_content"
+            android:layout_height="500dp"
+            android:layout_below="@id/congo5"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/img3" />
+        <!--Image 8-->
+        <ImageView
+            android:id="@+id/congo7"
+            android:layout_width="wrap_content"
+            android:layout_height="500dp"
+            android:layout_below="@id/congo6"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/img2" />
+
+        <!--                <GridLayout-->
+        <!--                    android:layout_width="match_parent"-->
+        <!--                    android:layout_height="match_parent"-->
+        <!--                    android:layout_below="@+id/ao"-->
+        <!--                    android:layout_marginTop="0dp"-->
+        <!--                    android:layout_weight="3"-->
+        <!--                    android:columnCount="2"-->
+        <!--                    android:rowCount="3">-->
+
+        <!--                    <androidx.cardview.widget.CardView-->
+        <!--                        android:layout_width="150dp"-->
+        <!--                        android:layout_height="150dp"-->
+
+        <!--                        android:layout_marginLeft="20dp"-->
+
+        <!--                        android:layout_marginTop="17pt">-->
+
+        <!--                        <ImageView-->
+
+        <!--                            android:id="@+id/ii1"-->
+
+        <!--                            android:layout_width="fill_parent"-->
+        <!--                            android:layout_height="fill_parent"-->
+        <!--                            android:scaleType="fitXY"-->
+        <!--                            android:src="@drawable/admissionopen">-->
+
+        <!--                        </ImageView>-->
+
+        <!--                    </androidx.cardview.widget.CardView>-->
+
+        <!--                    <androidx.cardview.widget.CardView-->
+        <!--                        android:layout_width="150dp"-->
+        <!--                        android:layout_height="150dp"-->
+        <!--                        android:layout_below="@+id/slider"-->
+        <!--                        android:layout_marginLeft="20dp"-->
+        <!--                        android:layout_marginTop="17pt"-->
+        <!--                        android:layout_marginBottom="21dp">-->
+
+        <!--                        <ImageView-->
+
+        <!--                            android:id="@+id/ii2"-->
+
+        <!--                            android:layout_width="fill_parent"-->
+        <!--                            android:layout_height="fill_parent"-->
+        <!--                            android:scaleType="fitXY"-->
+        <!--                            android:src="@drawable/r1">-->
+
+        <!--                        </ImageView>-->
+
+        <!--                    </androidx.cardview.widget.CardView>-->
+
+        <!--                    <androidx.cardview.widget.CardView-->
+        <!--                        android:layout_width="150dp"-->
+        <!--                        android:layout_height="150dp"-->
+        <!--                        android:layout_below="@+id/slider"-->
+        <!--                        android:layout_marginLeft="20dp"-->
+
+        <!--                        android:layout_marginTop="17pt">-->
+
+        <!--                        <ImageView-->
+
+        <!--                            android:id="@+id/ii3"-->
+
+        <!--                            android:layout_width="fill_parent"-->
+        <!--                            android:layout_height="fill_parent"-->
+        <!--                            android:scaleType="fitXY"-->
+        <!--                            android:src="@drawable/r1">-->
+
+        <!--                        </ImageView>-->
+
+        <!--                    </androidx.cardview.widget.CardView>-->
+
+        <!--                    <androidx.cardview.widget.CardView-->
+        <!--                        android:layout_width="150dp"-->
+        <!--                        android:layout_height="150dp"-->
+        <!--                        android:layout_below="@+id/slider"-->
+        <!--                        android:layout_marginLeft="20dp"-->
+
+        <!--                        android:layout_marginTop="17pt">-->
+
+        <!--                        <ImageView-->
+
+        <!--                            android:id="@+id/ii4"-->
+
+        <!--                            android:layout_width="fill_parent"-->
+        <!--                            android:layout_height="fill_parent"-->
+        <!--                            android:scaleType="fitXY"-->
+        <!--                            android:src="@drawable/r1">-->
+
+        <!--                        </ImageView>-->
+
+        <!--                    </androidx.cardview.widget.CardView>-->
+
+        <!--                    <androidx.cardview.widget.CardView-->
+        <!--                        android:layout_width="150dp"-->
+        <!--                        android:layout_height="150dp"-->
+        <!--                        android:layout_below="@+id/slider"-->
+        <!--                        android:layout_marginLeft="20dp"-->
+
+        <!--                        android:layout_marginTop="17pt">-->
+
+        <!--                        <ImageView-->
+
+        <!--                            android:id="@+id/ii5"-->
+
+        <!--                            android:layout_width="fill_parent"-->
+        <!--                            android:layout_height="fill_parent"-->
+        <!--                            android:scaleType="fitXY"-->
+        <!--                            android:src="@drawable/r1">-->
+
+        <!--                        </ImageView>-->
+
+        <!--                    </androidx.cardview.widget.CardView>-->
+
+        <!--                    <androidx.cardview.widget.CardView-->
+        <!--                        android:layout_width="150dp"-->
+        <!--                        android:layout_height="150dp"-->
+
+        <!--                        android:layout_marginLeft="20dp"-->
+
+        <!--                        android:layout_marginTop="17pt">-->
+
+        <!--                        <ImageView-->
+
+
+        <!--                            android:layout_width="fill_parent"-->
+        <!--                            android:layout_height="fill_parent"-->
+        <!--                            android:scaleType="fitXY"-->
+        <!--                            android:src="@drawable/r1">-->
+
+        <!--                        </ImageView>-->
+
+        <!--                    </androidx.cardview.widget.CardView>-->
+        <!--                </GridLayout>-->
+    </RelativeLayout>
+
+</ScrollView>

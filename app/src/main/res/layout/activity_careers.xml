@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lightbackground"
+    tools:context="com.radiant.testradiant.Careers">
+
+    <ImageView
+        android:id="@+id/ao"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:src="@drawable/test" />
+
+    <ImageView
+        android:id="@+id/a"
+        android:layout_width="370dp"
+        android:layout_height="350dp"
+        android:src="@drawable/hiring"
+        android:layout_marginTop="110dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <ImageView
+        android:id="@+id/applynow"
+        android:layout_below="@+id/a"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:onClick="browser3"
+        tools:ignore="OnClick"
+
+        android:layout_marginLeft="100dp"
+        android:src="@drawable/an1"
+
+        />
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:layout_centerHorizontal="false"-->
+<!--        android:layout_marginLeft="100dp"-->
+<!--        android:layout_marginTop="20sp"-->
+<!--        android:gravity="fill"-->
+<!--        android:text="Careers"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textStyle="bold" />-->
+
+</RelativeLayout>

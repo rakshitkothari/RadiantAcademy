@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lightbackground"
+    tools:context="com.radiant.testradiant.FeeDepositMode">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ao"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/test" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:layout_marginTop="25dp"
+            android:gravity="center_horizontal"
+            android:text="How to Deposit Fee"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textbelow1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:justificationMode="inter_word"
+            android:text="All the students who will be declared qualified in R-SAT (Radiant Scholarship cum Admission test) can deposit their course fee. In the view of current situation of COVID-19, we are offering direct admission in class 7th to 10th in Young Scholar’s Program (YSP) division and Advanced Scholar’s Program (ASP) division. The fee shall be payable to The Radiant Academy. It can be deposited as follows:"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+
+
+            />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textbelow1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:justificationMode="inter_word"
+            android:text="1. Offline Fee Submission:"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textbelow1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:justificationMode="inter_word"
+            android:text="(a) In-Person:"
+
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="italic"
+
+            />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textbelow1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:justificationMode="inter_word"
+            android:text="You may deposit the fee in cash to the person at registered office, situated in Udaipur.
+You may deposit the fee in form of a Cheque/DD made in the favour of The Radiant Academy, payable at Udaipur and submit at registered office situated in Udaipur."
+
+            android:textColor="@color/black"
+            android:textSize="18dp"
+
+
+            />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textbelow1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:justificationMode="inter_word"
+            android:text="(b) By Post/ Courier:"
+
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="italic"
+
+            />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textbelow1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:justificationMode="inter_word"
+            android:text="Make a Cheque/DD of requisite fee in favour of The Radiant Academy, payable at Udaipur and send it to registered office situated in Udaipur."
+
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="italic"
+
+            />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textbelow1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:justificationMode="inter_word"
+            android:text="Note: The student must write his/her name, father's name, class and course in which studying presently, postal address and contact/mobile numbers on backside of the Cheque/DD. Also keep the photocopy of Cheque/DD with you for future reference."
+
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="italic"
+
+            />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textbelow1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:justificationMode="inter_word"
+            android:text="2. Online Fee Submission:"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textbelow1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:justificationMode="inter_word"
+            android:text="Please deposit the fee through IMPS/NEFT Mode."
+
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/b"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textbelow1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:justificationMode="inter_word"
+            android:text="This can be done as follows through your bank. The bank details for The Radiant Academy for NEFT/IMPS transfer are as follows:"
+
+            android:textColor="@color/black"
+            android:textSize="18dp"
+
+
+            />
+
+        <TextView
+
+            android:id="@+id/bank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/b"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Name of Bank:"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:id="@+id/bankname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bank"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Bank of Baroda"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+
+        <TextView
+
+            android:id="@+id/account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bankname"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Account Type:"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:id="@+id/account_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/account"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Current account"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+
+        <TextView
+
+            android:id="@+id/holder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/account_type"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Account Holder Name:"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:id="@+id/holdername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/account_type"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="THE RADIANT ACADEMY"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+
+            android:id="@+id/accnumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/holdername"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Bank Account Number:"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:id="@+id/accountnumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/accnumber"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="30250200000907"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+
+        <TextView
+
+            android:id="@+id/baddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/accountnumber"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Branch Address:"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+
+            android:id="@+id/branchaddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/baddress"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:text="Sec-4, Near Jain Temple, Hiran Magri, Udaipur"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+
+        <TextView
+
+            android:id="@+id/ifsc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/branchaddress"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="IFSC:"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:id="@+id/ifsccode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ifsc"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="BARB0HIRANM (0 is Zero)"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/qr"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/ifsccode"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:justificationMode="inter_word"
+            android:text="3. Using QR code"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold"
+
+            />
+
+        <ImageView
+            android:id="@+id/abc"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/radiantqr"
+
+
+            />
+
+
+        <TextView
+            android:id="@+id/important"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textbelow1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:justificationMode="inter_word"
+            android:text="IMPORTANT: After depositing the fee via NEFT/IMPS, please submit the UTR/Transaction reference number on the website of The Radiant Academy (www.theradiantacademy.com) under the section “NEFT/IMPS details. This is an important step to reconcile your payment."
+
+            android:textColor="@color/black"
+            android:textSize="15dp"
+
+
+            />
+
+
+    </LinearLayout>
+
+</ScrollView>

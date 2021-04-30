@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lightbackground"
+    tools:context="com.radiant.testradiant.CancellationOfAdmission">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ao"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/test" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="25dp"
+            android:gravity="center_horizontal"
+            android:text="Cancellation of Admission"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textbelow1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:justificationMode="inter_word"
+            android:text="The Institute reserves the right to cancel the admission of enrolled students in Advanced Scholar's Program (ASP) and Young Scholar's Program (YSP) in following cases:"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+
+
+            />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textbelow1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:justificationMode="inter_word"
+            android:text="1. The student of an Advanced Scholar’s Program (ASP) and Young Scholar's Program (YSP) has failed to deposit the prescribed course fee after 04 weeks of last date of second/third/last Installment (as per option chosen) of course fee."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="italic"
+
+            />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textbelow1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:justificationMode="inter_word"
+            android:text="2. A student who is continuously absent for more than 02 weeks (12 working days) without any written information to the concerned authority."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="italic"
+
+            />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textbelow1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:justificationMode="inter_word"
+            android:text="3. A student who is showing frequent absenteeism (cumulative 30 working days) without any written information to the concerned authority."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="italic"
+
+            />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textbelow1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:justificationMode="inter_word"
+            android:text="4. A student who is indulged in in disciplinary, unconstitutional, illegal activities."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="italic"
+
+            />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textbelow1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:justificationMode="inter_word"
+            android:text="5. Such a students whose enrollment has been cancelled due to one/any of the above reasons shall be called Dropout and his/her admission status shall be recorded as Admission Cancelled in the institute records."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="italic"
+
+            />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textbelow1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:justificationMode="inter_word"
+            android:text="6. Any objection/claim against the 'Cancellation of Admission' can be reported to the concerned authority, as mentioned above, within 04 weeks of the issuance of the 'Letter of Cancellation of Admission', only for reconsideration of admission."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="italic"
+
+            />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textbelow1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:justificationMode="inter_word"
+            android:text="7. Any objection/claim after 04 weeks of the issuance of the 'Letter of Cancellation of Admission' shall not be accepted/entertained."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="italic" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textbelow1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:justificationMode="inter_word"
+            android:text="8. In case of any dispute the jurisdiction of Udaipur (Rajasthan) shall be applicable."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="italic" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textbelow1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:justificationMode="inter_word"
+            android:text="9. The cancelled admission will be considered as Fresh (New) Admission for the next session. In case of same session the student will have to pay a fine of 5000/- and the remaining fee to continue the classes."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="italic" />
+
+
+    </LinearLayout>
+
+</ScrollView>

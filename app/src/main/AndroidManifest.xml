@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.radiant.testradiant">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TestRadiant">
+        <activity android:name="com.radiant.testradiant.Scholarship" />
+        <activity android:name="com.radiant.testradiant.FeeDepositMode" />
+        <activity android:name="com.radiant.testradiant.FeeStructure" />
+        <activity android:name="com.radiant.testradiant.CourseDetailYsp" />
+        <activity android:name="com.radiant.testradiant.CourseDetailNeetPdf" />
+        <activity android:name="com.radiant.testradiant.CourseDetailJeePdf" />
+        <activity android:name="com.radiant.testradiant.ApplyNow" />
+        <activity android:name="com.radiant.testradiant.CancellationOfAdmission" />
+        <activity android:name="com.radiant.testradiant.AdmissionBroucher" />
+        <activity android:name="com.radiant.testradiant.InformationGuide" />
+        <activity
+            android:name="com.radiant.testradiant.ui.login.LoginActivity"
+            android:label="@string/title_activity_login" />
+        <activity android:name="com.radiant.testradiant.RadiantGallery" />
+        <activity android:name="com.radiant.testradiant.NewActivity1" />
+        <activity android:name="com.radiant.testradiant.Fee" />
+        <activity android:name="com.radiant.testradiant.AdmissionsProgramme" />
+        <activity android:name="com.radiant.testradiant.ContactUs" />
+        <activity
+            android:name="com.radiant.testradiant.Ysp"
+            android:parentActivityName="com.radiant.testradiant.CourseProgramme" />
+        <activity
+            android:name="com.radiant.testradiant.Neet"
+            android:parentActivityName="com.radiant.testradiant.Asp" />
+        <activity
+            android:name="com.radiant.testradiant.Asp"
+            android:parentActivityName="com.radiant.testradiant.CourseProgramme" />
+        <activity
+            android:name="com.radiant.testradiant.Jee"
+            android:parentActivityName="com.radiant.testradiant.Asp" />
+        <activity
+            android:name="com.radiant.testradiant.Careers"
+            android:parentActivityName="com.radiant.testradiant.AboutUsProgramme" />
+        <activity
+            android:name="com.radiant.testradiant.OurTeam"
+            android:parentActivityName="com.radiant.testradiant.AboutUsProgramme" />
+        <activity
+            android:name="com.radiant.testradiant.TheRadiantWay"
+            android:parentActivityName="com.radiant.testradiant.AboutUsProgramme" />
+        <activity
+            android:name="com.radiant.testradiant.WhyChooseRadiant"
+            android:parentActivityName="com.radiant.testradiant.AboutUsProgramme"
+            tools:ignore="MissingClass" />
+        <activity
+            android:name="com.radiant.testradiant.AboutRadiant"
+            android:parentActivityName="com.radiant.testradiant.AboutUsProgramme" />
+        <activity
+            android:name="com.radiant.testradiant.AboutUsProgramme"
+            android:parentActivityName="com.radiant.testradiant.CourseProgramme" />
+        <activity
+            android:name="com.radiant.testradiant.CourseProgramme"
+            android:parentActivityName="com.radiant.testradiant.AboutRadiant" />
+        <activity android:name="com.radiant.testradiant.NewActivity" /> <!-- android:parentActivityName=".AboutRadiant"/> -->
+        <activity android:name="com.radiant.testradiant.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
